@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -49,6 +51,19 @@
 	<array>
 		<string>armv7</string>
 	</array>
+    <key>NSLocationTemporaryUsageDescriptionDictionary</key>
+             <dict>
+                <key>AccuracyFeatureFirst</key>
+                <string>This app needs accurate location so it can verify that you're in a supported region.</string>
+                <key>AccuracyFeatureSecond</key>
+                <string>This app needs accurate location so it can show you relevant results.</string>
+              </dict>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Your location is used to track you and provide customise service.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Your location is used to track you and provide customise service.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Your location is used to track you and provide customise service.</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
