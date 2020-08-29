@@ -129,7 +129,6 @@ extension ViewController : CLLocationManagerDelegate {
   
   
 public func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-        print("didChangeAuthorization: \(status.description)")
         updateStatus()
     }
     
